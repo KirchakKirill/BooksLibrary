@@ -1,0 +1,277 @@
+
+.setRow{
+  display: flex;
+  flex-direction: row ;
+
+}
+.container {
+  display: flex;
+  align-items: flex-start; 
+  margin: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
+  width: 50%;
+  flex-direction: column ;
+}
+
+.selectInput {
+  width: 85%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+  flex-direction: column ;
+}
+.setCol {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  gap: 10px; 
+}
+
+.date-container
+{
+  display: flex;
+  flex-direction: column ;
+  align-items: flex-start; 
+  margin: 10px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
+  width: 85%;
+}
+
+.container input{
+  width: 85%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row ;
+  gap: 10px; 
+}
+
+.selectInput:focus {
+  border-color: #4f7cfb;
+  box-shadow: 0 0 5px rgba(79, 124, 251, 0.5);
+  outline: none;
+}
+
+
+.label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+
+.label-container {
+  display: flex;
+  flex-direction: column; /* Размещаем label и кнопку друг под другом */
+  justify-content: flex-start; /* Выравниваем по верхнему краю */
+  align-items: flex-end; /* Выравниваем по левому краю */
+}
+
+
+
+
+
+.inputPeriod {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.inputPeriod:focus {
+  border-color: #4f7cfb;
+  box-shadow: 0 0 5px rgba(79, 124, 251, 0.5);
+  outline: none;
+}
+
+
+.bookContainer {
+  display: flex;
+  flex-direction: row; 
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%; 
+  max-width: 1200px; 
+  box-sizing: border-box; 
+  margin-left: auto;
+  margin-right: auto; 
+  border: 2px solid #1a1818; 
+  border-radius: 10px; 
+}
+
+.bookContainer h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.bookList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 300px; 
+}
+
+.bookList li {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #121111;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+
+.bookList .selected {
+  background-color: #f5fae0; 
+  color: #4f7cfb; 
+}
+
+.bookList  .favorite {
+  background-color: #c4cf90; 
+  color: #000000; 
+}
+
+
+.bookList li:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+
+.bookList li:hover {
+  background-color: #f1f1f1; 
+  color: #4f7cfb; 
+  border-left: 4px solid #4f7cfb; 
+  transition: all 0.3s ease; 
+}
+
+.bookList .selected {
+  background-color: #e0f7fa; 
+}
+
+.buttonGroup {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row; /* Располагаем кнопки в строку */
+  align-items: flex-end; /* Выравниваем по верхнему краю */
+  gap: 10px; /* Отступ между кнопками */
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: white;
+  background-color: #4f7cfb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.button:hover {
+  background-color: #3e6ad6;
+}
+
+
+.info-container {
+  display: flex;
+  flex-direction: row; 
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  flex-grow: 1; 
+  max-width: 800px; 
+  margin-left: 20px; 
+}
+
+
+.book-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+}
+
+
+.book-description {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.content {
+  font-size: 1.2rem;
+  color: #888;
+  text-align: center;
+  padding: 20px;
+}
+
+.info-container {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s forwards;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
